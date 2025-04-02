@@ -2,12 +2,14 @@
 /* CSS Document */
 body{
 	font-family:"華康中圓體";
-	overflow-x:hidden;
 }
 .page{
 	min-height:1100px;
 	padding-top:100px;
 	width:100vw;
+}
+.icon{
+	position:absolute; top:-5px;
 }
 .menu{
 	position:relative;
@@ -80,6 +82,15 @@ body{
 }
 #sec01{
 	background-image:url(../img/bk1.jpg);
+}
+.offset-3 {
+    margin-left: 0%;
+}
+.title{
+}
+.content{
+    margin: 0 auto 0;
+    width: 80%;
 }
 .about:hover .all{
 	transform:rotateY(180deg);
@@ -174,8 +185,42 @@ body{
 	background-color:#06F;
 }
 .p{
+	width: 400px;
 	height:500px;
 	border-radius:20px;
 	background-color:#e6e6e6;
 	margin:20px;
+}
+@media (max-width: 1024px) { 
+}
+
+@media (max-width: 768px) { 
+	.RWD{
+		display: none;
+	}
+}
+
+@media (max-width: 480px) { 
+	.RWD{
+		display: none;
+	}
+	#story {
+		width: 100%;
+		margin: 10px 0;
+	}
+	.sty {
+		width: 100%;
+	}
+	.p{
+		width: 80%;
+		height:500px;
+		border-radius:20px;
+		background-color:#e6e6e6;
+		margin:20px;
+	}
+	p img {
+		width: 8%;
+		height: auto; /* 保持圖片比例 */
+		max-width: 100%; /* 確保圖片不會超過容器 */
+	}
 }
