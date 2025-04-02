@@ -2,6 +2,7 @@
 /* CSS Document */
 body{
 	font-family:"華康中圓體";
+	overflow-x: hidden;
 }
 .page{
 	min-height:1100px;
