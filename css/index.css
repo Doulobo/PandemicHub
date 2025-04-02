@@ -175,6 +175,9 @@ body{
 #sec05{
 	background-image:url(../img/bk5.jpg);
 }
+.action{
+	width: 700px;
+}
 #sec06{
 	background-image:url(../img/bk6.jpg);
 }
@@ -230,5 +233,9 @@ body{
 	}
 	.toolimg{
 		width: 100%;
+	}
+	
+	.action{
+		width: 700px;
 	}
 }
