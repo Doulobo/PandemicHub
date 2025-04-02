@@ -192,6 +192,10 @@ body{
 	background-color:#e6e6e6;
 	margin:20px;
 }
+
+.toolimg{
+	width: 400px;
+}
 @media (max-width: 1024px) { 
 }
 
@@ -223,5 +227,8 @@ body{
 		width: 8%;
 		height: auto; /* 保持圖片比例 */
 		max-width: 100%; /* 確保圖片不會超過容器 */
+	}
+	.toolimg{
+		width: 100%;
 	}
 }
