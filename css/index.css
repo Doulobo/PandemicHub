@@ -16,6 +16,7 @@ body{
 	position:relative;
 	z-index:10
 }
+
 .menu > aside{
 	position:fixed;
 	width:300px;
@@ -52,6 +53,17 @@ body{
 	width:50px;
 	height:50px;
 }
+.marquee {
+	white-space: nowrap;
+	animation: marquee 20s linear infinite;
+	display: inline-block;
+  }
+  
+  @keyframes marquee {
+	0% { transform: translateX(100%); }
+	100% { transform: translateX(-100%); }
+  }
+  
 .logomove{
 	-webkit-animation:in 8s;
 	width:100px;
@@ -85,7 +97,7 @@ body{
 	background-image:url(../img/bk1.jpg);
 }
 .offset-3 {
-    margin-left: 0%;
+    ㄆㄆgin-left: 0%;
 }
 .title{
 }
@@ -169,14 +181,28 @@ body{
 #sec03{
 	background-image:url(../img/bk3.jpg);
 }
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.action{
+	width: 48%; /* 留點空間讓兩個區塊在一行不會擠爆 */
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.prevention{
+	width: 100%; /* 讓圖片自適應 action 區塊 */
+	max-width: 100%;
+	height: auto;
+}
 #sec04{
 	background-image:url(../img/bk4.jpg);
 }
 #sec05{
 	background-image:url(../img/bk5.jpg);
-}
-.action{
-	width: 700px;
 }
 #sec06{
 	background-image:url(../img/bk6.jpg);
